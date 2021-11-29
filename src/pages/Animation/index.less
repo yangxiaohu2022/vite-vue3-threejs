@@ -1,0 +1,19 @@
+.animation {
+  &-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  &-block {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    & > span {
+      color: white;
+      font-weight: 600;
+      position: absolute;
+      left: 10px;
+      top: 10px;
+    }
+  }
+}
