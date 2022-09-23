@@ -1,0 +1,59 @@
+Arguments: 
+  /Users/yangxiaohu/.nvm/versions/node/v16.13.1/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js add @mantisvision/ryskaframe
+
+PATH: 
+  /usr/local/opt/opencv@3/bin:/usr/local/opt/opencv@3/bin:/Users/yangxiaohu/.nvm/versions/node/v16.13.1/bin:/Users/yangxiaohu/Sites/hello-world/emsdk:/Users/yangxiaohu/Sites/hello-world/emsdk/upstream/emscripten:/Users/yangxiaohu/Sites/hello-world/emsdk/node/14.18.2_64bit/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/opt/opencv@3/bin:/Users/yangxiaohu/.nvm/versions/node/v16.13.1/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://npm.pkg.github.com/@mantisvision%2fryskaframe: Permission permission_denied: The token provided does not match expected scopes.
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "threejs",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vue-tsc --noEmit && vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "@types/node": "^16.11.9",
+      "three": "^0.134.0",
+      "vue": "^3.2.16",
+      "vue-router": "4"
+    },
+    "devDependencies": {
+      "@types/three": "^0.134.0",
+      "@vitejs/plugin-vue": "^1.9.3",
+      "@vitejs/plugin-vue-jsx": "^1.2.0",
+      "less": "^4.1.2",
+      "typescript": "^4.4.3",
+      "vite": "^2.6.4",
+      "vue-tsc": "^0.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
